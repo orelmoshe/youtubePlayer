@@ -13,7 +13,7 @@ const App = () => {
 			params: {
 				part: 'snippet',
 				maxResults: 5,
-				key: 'AIzaSyC778CEaZAt-V2ZQJPPhrvwIP65hhbRP24',
+				key: process.env.REACT_APP_API_KEY,
 				q: searchTerm,
 			},
 		});
